@@ -37,7 +37,7 @@ r3 = accuracy_score(_Y,prediction3)
 
 #print best result
 index = np.argmax([r1, r2, r3])
-classifiers = {0: 'SVM', 2: 'Naive Bayes', 1: 'KNN'}
+classifiers = {0: 'SVM',1: 'KNN', 2: 'Naive Bayes'}
 print('Best gender classifier is {}'.format(classifiers[index]))
 
 
